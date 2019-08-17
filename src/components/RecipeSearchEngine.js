@@ -4,7 +4,7 @@ import RecipeList from "./RecipeList";
 import RecipeSearchBar from "./RecipeSearchBar";
 import axios from "axios";
 const RecipeSeachEngine = () => {
-  const [data, setData] = useState(rawData.results);
+  const [data, setData] = useState('');
   const [height, setHeight] = useState(null);
   const [chips, setChips] = useState([]);
   const [page, setPage] = useState(1);
