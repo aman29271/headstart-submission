@@ -1,0 +1,218 @@
+.md-chip {
+    display: inline-block;
+    background: #e0e0e0;
+    padding: 4px 10px;
+    border-radius: 32px;
+    font-size: 13px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+  }
+  .md-chip1 {
+    display: inline-block;
+    background: #f1f1f1;
+    padding: 4px 10px;
+    border-radius: 32px;
+    font-size: 13px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+  }
+  .md-chip-remove {
+    display: inline-block;
+    background: #aaa;
+    border: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0 -4px 0 4px;
+    cursor: pointer;
+    font: inherit;
+    line-height: 20px;
+  }
+  .md-chip-remove:after {
+    color: #e0e0e0;
+    content: 'x';
+  }
+  .md-chip-remove:hover {
+    background: #999;
+  }
+  .md-chip-remove:active {
+    background: #777;
+  }
+  .md-chip-add {
+    display: inline-block;
+    background: #aaa;
+    border: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0 -4px 0 4px;
+    cursor: pointer;
+    font: inherit;
+    line-height: 20px;
+  }
+  .md-chip-add:after {
+    color: #e0e0e0;
+    content: '+';
+  }
+  .md-chip-add:hover {
+    background: #999;
+  }
+  .md-chip-add:active {
+    background: #777;
+  }
+
+@media screen and (max-width: 1500px) {
+    .content{
+        padding: 30px 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  section {
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+  }
+  .small-button {
+    display: none;
+  }
+  .lg-button {
+    color: #fff;
+    background-color: #5b5753;
+    padding: 8px 12px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+  input[type="text"] {
+    border: none;
+    height: 20px;
+    outline: none;
+  }
+  button {
+    border: none;
+    cursor: pointer;
+    outline: 0;
+  }
+  .form-wrapper {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 20px ;
+    -webkit-border-radius: 20px ;
+    -moz-border-radius: 20px ;
+    -ms-border-radius: 20px ;
+    -o-border-radius: 20px ;
+    padding: 6px;
+
+}
+form{
+    text-align: center;
+}
+.card{
+    padding: 10px;
+    min-width: 100px;
+    width: 25%;
+    float: left;
+    background-color: #fff;
+    margin-left: 40px;
+    margin-bottom: 75px;
+    flex: 0 0 250px;
+    display: flex;
+    flex-direction: column;
+}
+.card-main{
+    display:flex;
+    flex: 1 0 auto;
+}
+.card-title{
+    flex: 1 0 190px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+hr{
+    /* color: #e8e8e7; */
+    border-color: #e8e8e7;
+    border-style: double;
+    border-width: 2px;
+}
+.card-image{
+    flex: 0 0 40px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.container{
+    flex: 1 0 auto;
+}
+.container p{
+    font-size: .8rem;
+}
+.anchor{
+    flex: 0 0 30px;
+    text-align: center;
+    background-color: #e8e8e7;
+}
+.anchor a{
+    text-decoration: none;
+    color:#7c7c7c;
+    display: inline-block;
+    font-weight: bold;
+    padding-top: 7px;
+    font-size: .85rem;
+}
+}
+@media screen and (max-width: 768px) {
+    .content{
+        justify-content: center;
+        padding: 32px 0px;
+    }
+    input[type=text]{
+        height: 40px;
+        float: left;
+        background-color: transparent;
+    }
+  .small-button {
+    display: inline-block;
+    height:53px;
+    box-sizing: content-box;
+    padding: 8px ;
+    width: 50px;
+    background-color: #5b5753;
+    background-image: url('images/search-icon.png');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}
+  .small-button img {
+      float: left;
+    max-width: 100%;
+  }
+  .lg-button {
+    display: none;
+  }
+  form{
+      text-align: center;
+  }
+  .form-wrapper{
+      display: inline-block;
+      border-radius: 37px  ;
+      -webkit-border-radius: 37px  ;
+      -moz-border-radius: 37px  ;
+      -ms-border-radius: 37px  ;
+      -o-border-radius: 37px  ;
+}
+}

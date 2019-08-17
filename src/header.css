@@ -1,0 +1,30 @@
+@media screen and (max-width:1500px){
+    header{
+        width: 100%;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        background-color: #252019;
+        color:#fff;
+    }
+    .header{
+        width:100%;
+        display: flex;
+        
+    }
+    .header-left{
+        flex: 1 0 300px;
+        padding-inline-start: 30px;
+    }
+    .header-right{
+        /* flex: 0 0 200px; */
+    }
+    .header-right img{
+        padding: 8px 10px;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:1029px){
+    .header-right{
+        display: none;
+    }
+}
